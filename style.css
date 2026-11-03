@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    color: #a098c7;
+    font-family: "Libre Caslon Text", Georgia, serif;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #c23a21;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: "Allura", cursive;
+    font-size: 2rem;
+}
+
+header {
+    display: flex; 
+    justify-content: space-around; 
+    padding: 2px; 
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    background: #dfd19d;
+}
+
+button {
+    font-family: "Libre Caslon Text", Georgia, serif;
+    font-size: 1.2rem;
+    background: #dfd19d;
+    cursor: pointer;
+    border: none;
+    transition: background 150ms ease, transform 150ms ease;
+}
+
+button.hover {
+    background: #5a4e86;
+}
+
+.dona {
+    padding: 1.5rem 1.5rem;
+    background: #eeed;
+    font-size: 2rem;
+}
+
+.producto {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    gap: 4rem;
+    margin-top: 150px;
+    margin-left: -400px;
+}
+
+.camiseta {
+    margin-top: 50px;
+}
+
+main {
+    max-width: 32rem;
+    margin: 0 auto;
+    padding: 0 1rem 4rem;
+}
