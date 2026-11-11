@@ -3,23 +3,37 @@ body {
     color: #a098c7;
     font-family: "Libre Caslon Text", Georgia, serif;
     display: flex;
+    flex: 1;
     align-items: center;
 }
 
 h1 {
     color: #c23a21;
     font-size: 2.5rem;
+    display: flex;
+    align-items: baseline;
+    white-space: nowrap;
 }
 
 h2 {
     font-family: "Allura", cursive;
     font-size: 2rem;
+    display: flex;
+    align-items: baseline;
+    margin: -10px;
+    white-space: nowrap;
+}
+
+h3 {
+    color: #000;
+    justify-content: space-between;
 }
 
 header {
     display: flex; 
-    justify-content: space-around; 
-    padding: 2px; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px; 
     position: fixed;
     top: 0; 
     left: 0; 
@@ -30,10 +44,13 @@ header {
 button {
     font-family: "Libre Caslon Text", Georgia, serif;
     font-size: 1.2rem;
+    text-decoration: none;
     background: #dfd19d;
     cursor: pointer;
     border: none;
     transition: background 150ms ease, transform 150ms ease;
+    display: flex;
+    align-items: center;
 }
 
 button.hover {
@@ -41,23 +58,33 @@ button.hover {
 }
 
 .dona {
-    padding: 1.5rem 1.5rem;
+    padding: 1rem 1rem;
     background: #eeed;
     font-size: 2rem;
+    margin-right: 35px;
 }
 
-.producto {
-    padding: 2rem;
+.sobre {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 100px;
+    white-space: nowrap;
+}
+
+.producto { 
+    padding: 0.5rem;
     display: flex;
     flex-direction: row; 
     justify-content: flex-start;
-    gap: 4rem;
     margin-top: 150px;
     margin-left: -400px;
 }
 
 .camiseta {
     margin-top: 50px;
+    margin-left: 50px;
 }
 
 main {
