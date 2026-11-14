@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open sobre.html",
-            "file": "c:\\Users\\mahik\\.vscode\\ciudadanos-invisibles-sitio\\sobre.html"
+            "file": "c:\\Users\\mahik\\.vscode\\ciudadanos-invisibles-sitio\\index.html"
         }
     ]
 }
